@@ -1,0 +1,52 @@
+body{
+    font-family:sans-serif;
+    background: url(classroom.jpg);
+    background-size: cover;
+}
+.box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:(0,0,0,1);
+    text-align:center;
+}
+.box h1
+{
+    color: white;
+    text-transform : uppercase;
+    font-weight : 1500;
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border:0;
+    background:none;
+    display:block;
+    margin:20 px auto;
+    text-align:center;
+    border: 3px solid #0367fd;
+    width : 220px;
+    outline:none;
+    color : black;
+    border-radius:24px;
+    transition :0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+border-color: ##ffc400ec;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #ffc400ec;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #ffc400ec;
+}

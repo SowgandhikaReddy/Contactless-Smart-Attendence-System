@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> Login page </title>
+<link rel="stylesheet" href="style2.css">
+<script>
+function validate()
+{
+var username=document.f1.user.value;
+var password=document.f1.pass.value;
+if(username=="P19251A12B3" && password=="P19251A12B3")
+{
+alert("login successfull");
+}
+else if(username=="P19251A12B4" && password=="P19251A12B4")
+{
+alert("login successfull");
+}
+else if(username=="P19251A12B5" && password=="P19251A12B5")
+{
+alert("login successfull");
+}
+else
+{
+  alert("login failed");
+}
+}
+</script>
+</head>
+<body>
+<form name="f1" class="box" action="login.html" method="POST">
+<h1> Login page </h1>
+<input type="text" name="user" placeholder="Enter Username" id="username">
+<input type="password" name="pass" placeholder="Enter Password" id="password">
+<input type="submit" value="Login" onclick="validate()">
+</form>
+</body>
+</html>
